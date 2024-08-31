@@ -6,12 +6,19 @@
 //
 
 import SwiftUI
+import Home
+import Core
 
 @main
 struct PerfettoApp: App {
+    
+    @StateObject var homeVM = HomeViewModel()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TabBarView()
+                .preferredColorScheme(.light)
+                .environmentObject(homeVM)
         }
     }
 }
