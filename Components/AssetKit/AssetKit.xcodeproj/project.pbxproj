@@ -8,11 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		FA1011C32C61856B00D1F3C7 /* AssetKit.h in Headers */ = {isa = PBXBuildFile; fileRef = FA1011C22C61856B00D1F3C7 /* AssetKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FACFFF5E2C82B3A2004DB95E /* swiftgen.yml in Resources */ = {isa = PBXBuildFile; fileRef = FACFFF5D2C82B3A2004DB95E /* swiftgen.yml */; };
+		FACFFF602C82B3C0004DB95E /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FACFFF5F2C82B3C0004DB95E /* Color.xcassets */; };
+		FACFFF642C82B3E2004DB95E /* Image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FACFFF632C82B3E2004DB95E /* Image.xcassets */; };
+		FACFFF722C82B671004DB95E /* XCAssets+Generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACFFF712C82B671004DB95E /* XCAssets+Generated.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FA1011BF2C61856B00D1F3C7 /* AssetKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AssetKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA1011C22C61856B00D1F3C7 /* AssetKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AssetKit.h; sourceTree = "<group>"; };
+		FACFFF5D2C82B3A2004DB95E /* swiftgen.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = swiftgen.yml; sourceTree = "<group>"; };
+		FACFFF5F2C82B3C0004DB95E /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Color.xcassets; sourceTree = "<group>"; };
+		FACFFF632C82B3E2004DB95E /* Image.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Image.xcassets; sourceTree = "<group>"; };
+		FACFFF712C82B671004DB95E /* XCAssets+Generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "XCAssets+Generated.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,7 +53,11 @@
 		FA1011C12C61856B00D1F3C7 /* AssetKit */ = {
 			isa = PBXGroup;
 			children = (
+				FACFFF712C82B671004DB95E /* XCAssets+Generated.swift */,
+				FACFFF5D2C82B3A2004DB95E /* swiftgen.yml */,
 				FA1011C22C61856B00D1F3C7 /* AssetKit.h */,
+				FACFFF5F2C82B3C0004DB95E /* Color.xcassets */,
+				FACFFF632C82B3E2004DB95E /* Image.xcassets */,
 			);
 			path = AssetKit;
 			sourceTree = "<group>";
@@ -93,6 +105,7 @@
 				TargetAttributes = {
 					FA1011BE2C61856B00D1F3C7 = {
 						CreatedOnToolsVersion = 15.4;
+						LastSwiftMigration = 1540;
 					};
 				};
 			};
@@ -119,6 +132,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FACFFF5E2C82B3A2004DB95E /* swiftgen.yml in Resources */,
+				FACFFF642C82B3E2004DB95E /* Image.xcassets in Resources */,
+				FACFFF602C82B3C0004DB95E /* Color.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FACFFF722C82B671004DB95E /* XCAssets+Generated.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +281,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -293,6 +311,7 @@
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -302,6 +321,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
