@@ -12,12 +12,19 @@ public struct OrderView: View {
     public init() { }
     
     public var body: some View {
-        VStack{
+        VStack {
             Text("Buyurtmalar")
                 .font(.system(size: 24, weight: .bold))
             
-            
-            Spacer()
+            ZStack {
+                Color.gray.opacity(0.1)
+                    .ignoresSafeArea()
+                
+                VStack {
+                    SegmentedView()
+                    Spacer()
+                }
+            }
         }
     }
 }

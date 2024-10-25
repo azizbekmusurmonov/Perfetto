@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02CFF1292CCA4E630043A2E1 /* ActiveOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CFF1282CCA4E630043A2E1 /* ActiveOrderView.swift */; };
+		02CFF12B2CCABC310043A2E1 /* SegmentedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CFF12A2CCABC310043A2E1 /* SegmentedView.swift */; };
+		02CFF12D2CCAC59E0043A2E1 /* OrderHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CFF12C2CCAC59E0043A2E1 /* OrderHistoryView.swift */; };
 		FA10112E2C61846D00D1F3C7 /* OrderAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA10112D2C61846D00D1F3C7 /* OrderAppApp.swift */; };
 		FA1011322C61846F00D1F3C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA1011312C61846F00D1F3C7 /* Assets.xcassets */; };
 		FA1011352C61846F00D1F3C7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA1011342C61846F00D1F3C7 /* Preview Assets.xcassets */; };
@@ -61,6 +64,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		02CFF1282CCA4E630043A2E1 /* ActiveOrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveOrderView.swift; sourceTree = "<group>"; };
+		02CFF12A2CCABC310043A2E1 /* SegmentedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedView.swift; sourceTree = "<group>"; };
+		02CFF12C2CCAC59E0043A2E1 /* OrderHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderHistoryView.swift; sourceTree = "<group>"; };
 		FA10112A2C61846D00D1F3C7 /* OrderApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrderApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA10112D2C61846D00D1F3C7 /* OrderAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderAppApp.swift; sourceTree = "<group>"; };
 		FA1011312C61846F00D1F3C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -138,6 +144,9 @@
 			children = (
 				FACFFE992C792076004DB95E /* Order.h */,
 				FACFFF0C2C7923C2004DB95E /* OrderView.swift */,
+				02CFF12A2CCABC310043A2E1 /* SegmentedView.swift */,
+				02CFF12C2CCAC59E0043A2E1 /* OrderHistoryView.swift */,
+				02CFF1282CCA4E630043A2E1 /* ActiveOrderView.swift */,
 				FACFFF0E2C7923D2004DB95E /* OrderViewModel.swift */,
 			);
 			path = Order;
@@ -276,7 +285,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FACFFF0D2C7923C2004DB95E /* OrderView.swift in Sources */,
+				02CFF12B2CCABC310043A2E1 /* SegmentedView.swift in Sources */,
+				02CFF12D2CCAC59E0043A2E1 /* OrderHistoryView.swift in Sources */,
 				FACFFF0F2C7923D2004DB95E /* OrderViewModel.swift in Sources */,
+				02CFF1292CCA4E630043A2E1 /* ActiveOrderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
