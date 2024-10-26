@@ -12,7 +12,23 @@ public struct BasketView: View {
     public init() { }
     
     public var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+            Text("Savat")
+            .font(.system(size: 24, weight: .bold))
+        ZStack{
+            Color.gray.opacity(0.1)
+                .ignoresSafeArea()
+            ScrollView{
+                VStack{
+                    BasketItemView()
+                        .padding(.top)
+                    BasketBalanceView()
+                    BasketButtonView()
+                    
+                    Spacer()
+                    
+                }
+            }
+        }
     }
 }
 
