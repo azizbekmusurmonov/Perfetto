@@ -8,15 +8,15 @@
 import SwiftUI
 
 struct BasketButtonView: View {
+    var buttonText: String
+    
     var body: some View {
-        Button(action: {
-        }) {
-            Text("Buyurtma berish")
+
+            Text(buttonText)
                 .foregroundColor(.black)
                 .frame(width: UIScreen.main.bounds.width - 32 , height: 59)
                 .background(Color.yellow) // Fon rangini sariq qilib belgilash
                 .cornerRadius(10) // Burchaklarini yumshatish
-        }
         .padding(.horizontal)
         
         
@@ -24,5 +24,5 @@ struct BasketButtonView: View {
 }
 
 #Preview {
-    BasketButtonView()
+    BasketButtonView(buttonText: "")
 }

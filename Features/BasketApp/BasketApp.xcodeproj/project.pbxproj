@@ -10,6 +10,9 @@
 		020602412CCBAD9C00D2A10D /* BascetItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020602402CCBAD9B00D2A10D /* BascetItemView.swift */; };
 		020602432CCC1D3B00D2A10D /* BasketBalanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020602422CCC1D3B00D2A10D /* BasketBalanceView.swift */; };
 		020602452CCC22CE00D2A10D /* BasketButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020602442CCC22CE00D2A10D /* BasketButtonView.swift */; };
+		0223E9BA2CCCFA310034E054 /* BasketDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0223E9B92CCCFA310034E054 /* BasketDetailsView.swift */; };
+		0223E9BC2CCCFA7A0034E054 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0223E9BB2CCCFA7A0034E054 /* ImageView.swift */; };
+		0223E9BE2CD14B960034E054 /* BasketSizeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0223E9BD2CD14B960034E054 /* BasketSizeView.swift */; };
 		FA10114E2C61849700D1F3C7 /* BasketAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA10114D2C61849700D1F3C7 /* BasketAppApp.swift */; };
 		FA1011522C61849900D1F3C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA1011512C61849900D1F3C7 /* Assets.xcassets */; };
 		FA1011552C61849900D1F3C7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA1011542C61849900D1F3C7 /* Preview Assets.xcassets */; };
@@ -67,6 +70,9 @@
 		020602402CCBAD9B00D2A10D /* BascetItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BascetItemView.swift; sourceTree = "<group>"; };
 		020602422CCC1D3B00D2A10D /* BasketBalanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketBalanceView.swift; sourceTree = "<group>"; };
 		020602442CCC22CE00D2A10D /* BasketButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketButtonView.swift; sourceTree = "<group>"; };
+		0223E9B92CCCFA310034E054 /* BasketDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketDetailsView.swift; sourceTree = "<group>"; };
+		0223E9BB2CCCFA7A0034E054 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		0223E9BD2CD14B960034E054 /* BasketSizeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketSizeView.swift; sourceTree = "<group>"; };
 		FA10114A2C61849700D1F3C7 /* BasketApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BasketApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA10114D2C61849700D1F3C7 /* BasketAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketAppApp.swift; sourceTree = "<group>"; };
 		FA1011512C61849900D1F3C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -144,6 +150,9 @@
 			children = (
 				FACFFE882C79204C004DB95E /* Basket.h */,
 				FACFFF082C792396004DB95E /* BasketView.swift */,
+				0223E9B92CCCFA310034E054 /* BasketDetailsView.swift */,
+				0223E9BB2CCCFA7A0034E054 /* ImageView.swift */,
+				0223E9BD2CD14B960034E054 /* BasketSizeView.swift */,
 				020602442CCC22CE00D2A10D /* BasketButtonView.swift */,
 				020602422CCC1D3B00D2A10D /* BasketBalanceView.swift */,
 				020602402CCBAD9B00D2A10D /* BascetItemView.swift */,
@@ -289,6 +298,9 @@
 				020602432CCC1D3B00D2A10D /* BasketBalanceView.swift in Sources */,
 				FACFFF092C792396004DB95E /* BasketView.swift in Sources */,
 				020602412CCBAD9C00D2A10D /* BascetItemView.swift in Sources */,
+				0223E9BC2CCCFA7A0034E054 /* ImageView.swift in Sources */,
+				0223E9BA2CCCFA310034E054 /* BasketDetailsView.swift in Sources */,
+				0223E9BE2CD14B960034E054 /* BasketSizeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

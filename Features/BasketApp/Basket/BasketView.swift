@@ -8,29 +8,37 @@
 import SwiftUI
 
 public struct BasketView: View {
+    @State private var showBasketDetails = false
     
     public init() { }
-    
+        
     public var body: some View {
-            Text("Savat")
-            .font(.system(size: 24, weight: .bold))
-        ZStack{
-            Color.gray.opacity(0.1)
-                .ignoresSafeArea()
-            ScrollView{
-                VStack{
-                    BasketItemView()
-                        .padding(.top)
-                    BasketBalanceView()
-                    BasketButtonView()
-                    
-                    Spacer()
-                    
+        NavigationView {
+            VStack {
+                Text("Savat")
+
+                ScrollView {
+                    VStack {
+                        BasketItemView()
+                            .padding(.top)
+                        BasketBalanceView()
+
+                        // NavigationLink ni alohida joylashtiring
+                        NavigationLink(destination: BasketDetailsView()) {
+                            BasketButtonView(buttonText: "Buyurtma berish")
+                        }
+                        .padding(.horizontal)
+
+                        Spacer()
+                    }
                 }
+                .background(Color.gray.opacity(0.1)) // Yengil fon
             }
         }
     }
+
 }
+
 
 #Preview {
     BasketView()
