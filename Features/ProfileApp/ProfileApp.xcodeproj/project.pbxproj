@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA38F1552CD4FA9B003C01A7 /* EditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA38F1542CD4FA9B003C01A7 /* EditProfileView.swift */; };
+		FAC549142CD4CC4C00569FDA /* ProfileSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC549132CD4CC4C00569FDA /* ProfileSectionView.swift */; };
+		FAC549212CD4CDB000569FDA /* SectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC549202CD4CDB000569FDA /* SectionModel.swift */; };
+		FAC549232CD4D04900569FDA /* ProfileConstans.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC549222CD4D04900569FDA /* ProfileConstans.swift */; };
+		FAC5492A2CD4D2F400569FDA /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC549292CD4D2F400569FDA /* LocationView.swift */; };
+		FAC5492C2CD4D31900569FDA /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC5492B2CD4D31900569FDA /* NotificationView.swift */; };
+		FAC5492E2CD4D32700569FDA /* LanguageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC5492D2CD4D32700569FDA /* LanguageView.swift */; };
+		FAC549302CD4D33D00569FDA /* LikeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC5492F2CD4D33D00569FDA /* LikeView.swift */; };
+		FAC549322CD4D34900569FDA /* HelpCenterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC549312CD4D34900569FDA /* HelpCenterView.swift */; };
 		FACFFF242C82ACD4004DB95E /* ProfileAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACFFF232C82ACD4004DB95E /* ProfileAppApp.swift */; };
 		FACFFF282C82ACD6004DB95E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FACFFF272C82ACD6004DB95E /* Assets.xcassets */; };
 		FACFFF2B2C82ACD6004DB95E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FACFFF2A2C82ACD6004DB95E /* Preview Assets.xcassets */; };
@@ -62,6 +71,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FA38F1542CD4FA9B003C01A7 /* EditProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
+		FAC549132CD4CC4C00569FDA /* ProfileSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSectionView.swift; sourceTree = "<group>"; };
+		FAC549202CD4CDB000569FDA /* SectionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionModel.swift; sourceTree = "<group>"; };
+		FAC549222CD4D04900569FDA /* ProfileConstans.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileConstans.swift; sourceTree = "<group>"; };
+		FAC549292CD4D2F400569FDA /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
+		FAC5492B2CD4D31900569FDA /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		FAC5492D2CD4D32700569FDA /* LanguageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageView.swift; sourceTree = "<group>"; };
+		FAC5492F2CD4D33D00569FDA /* LikeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeView.swift; sourceTree = "<group>"; };
+		FAC549312CD4D34900569FDA /* HelpCenterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpCenterView.swift; sourceTree = "<group>"; };
 		FACFFF202C82ACD4004DB95E /* ProfileApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProfileApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FACFFF232C82ACD4004DB95E /* ProfileAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileAppApp.swift; sourceTree = "<group>"; };
 		FACFFF272C82ACD6004DB95E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -98,6 +116,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA38F1532CD4FA7B003C01A7 /* EditProfile */ = {
+			isa = PBXGroup;
+			children = (
+				FA38F1542CD4FA9B003C01A7 /* EditProfileView.swift */,
+			);
+			path = EditProfile;
+			sourceTree = "<group>";
+		};
+		FA4451132CCA6B1B009977B1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FACFFF5B2C82ADEA004DB95E /* ProfileViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FA4451142CCA6B37009977B1 /* ProfileView */ = {
+			isa = PBXGroup;
+			children = (
+				FACFFF592C82ADBC004DB95E /* ProfileView.swift */,
+				FAC549132CD4CC4C00569FDA /* ProfileSectionView.swift */,
+				FAC549222CD4D04900569FDA /* ProfileConstans.swift */,
+				FAC549202CD4CDB000569FDA /* SectionModel.swift */,
+			);
+			path = ProfileView;
+			sourceTree = "<group>";
+		};
+		FAC549242CD4D1B600569FDA /* MyLocationView */ = {
+			isa = PBXGroup;
+			children = (
+				FAC549292CD4D2F400569FDA /* LocationView.swift */,
+			);
+			path = MyLocationView;
+			sourceTree = "<group>";
+		};
+		FAC549252CD4D1C500569FDA /* NotificationView */ = {
+			isa = PBXGroup;
+			children = (
+				FAC5492B2CD4D31900569FDA /* NotificationView.swift */,
+			);
+			path = NotificationView;
+			sourceTree = "<group>";
+		};
+		FAC549262CD4D25B00569FDA /* LanguageView */ = {
+			isa = PBXGroup;
+			children = (
+				FAC5492D2CD4D32700569FDA /* LanguageView.swift */,
+			);
+			path = LanguageView;
+			sourceTree = "<group>";
+		};
+		FAC549272CD4D28A00569FDA /* LikeView */ = {
+			isa = PBXGroup;
+			children = (
+				FAC5492F2CD4D33D00569FDA /* LikeView.swift */,
+			);
+			path = LikeView;
+			sourceTree = "<group>";
+		};
+		FAC549282CD4D2A700569FDA /* HelpCenterView */ = {
+			isa = PBXGroup;
+			children = (
+				FAC549312CD4D34900569FDA /* HelpCenterView.swift */,
+			);
+			path = HelpCenterView;
+			sourceTree = "<group>";
+		};
 		FACFFF172C82ACD3004DB95E = {
 			isa = PBXGroup;
 			children = (
@@ -138,10 +223,16 @@
 		FACFFF3D2C82AD06004DB95E /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				FA4451132CCA6B1B009977B1 /* ViewModel */,
+				FA38F1532CD4FA7B003C01A7 /* EditProfile */,
+				FA4451142CCA6B37009977B1 /* ProfileView */,
+				FAC549242CD4D1B600569FDA /* MyLocationView */,
+				FAC549252CD4D1C500569FDA /* NotificationView */,
+				FAC549262CD4D25B00569FDA /* LanguageView */,
+				FAC549272CD4D28A00569FDA /* LikeView */,
+				FAC549282CD4D2A700569FDA /* HelpCenterView */,
 				FACFFF3E2C82AD06004DB95E /* Profile.h */,
 				FACFFF3F2C82AD06004DB95E /* Profile.docc */,
-				FACFFF592C82ADBC004DB95E /* ProfileView.swift */,
-				FACFFF5B2C82ADEA004DB95E /* ProfileViewModel.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -277,8 +368,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAC549322CD4D34900569FDA /* HelpCenterView.swift in Sources */,
+				FAC549142CD4CC4C00569FDA /* ProfileSectionView.swift in Sources */,
+				FAC5492E2CD4D32700569FDA /* LanguageView.swift in Sources */,
 				FACFFF5C2C82ADEA004DB95E /* ProfileViewModel.swift in Sources */,
 				FACFFF5A2C82ADBC004DB95E /* ProfileView.swift in Sources */,
+				FAC5492C2CD4D31900569FDA /* NotificationView.swift in Sources */,
+				FA38F1552CD4FA9B003C01A7 /* EditProfileView.swift in Sources */,
+				FAC549212CD4CDB000569FDA /* SectionModel.swift in Sources */,
+				FAC5492A2CD4D2F400569FDA /* LocationView.swift in Sources */,
+				FAC549302CD4D33D00569FDA /* LikeView.swift in Sources */,
+				FAC549232CD4D04900569FDA /* ProfileConstans.swift in Sources */,
 				FACFFF402C82AD07004DB95E /* Profile.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -6,12 +6,13 @@
 //
 
 import SwiftUI
+import Profile
 
 @main
 struct ProfileAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ProfileView()
         }
     }
 }

@@ -38,7 +38,7 @@ struct TabBarView: View {
                     .tag(0)
                     .environmentObject(homeVMm)
                 
-                HomeView()
+                OrderView()
                     .tabItem {
                         Image(systemName: "applelogo")
                         Text("Buyurtma")
@@ -46,7 +46,7 @@ struct TabBarView: View {
                     .tag(1)
                     .environmentObject(orderVM)
                 
-                HomeView()
+                BasketView()
                     .tabItem {
                         Image(systemName: "applelogo")
                         Text("Savat")
@@ -54,7 +54,7 @@ struct TabBarView: View {
                     .tag(2)
                     .environmentObject(basketVM)
                 
-                HomeView()
+                ProfileView()
                     .tabItem {
                         Image(systemName: "applelogo")
                         Text("Profil")
